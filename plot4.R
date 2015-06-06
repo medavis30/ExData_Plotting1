@@ -22,7 +22,7 @@ plot4 <- function(){
     par(mar = c(4,4,2,2))
     
     ## Create Plot 4.1
-    with(myData, plot(Time, Global_active_power, type = "l", xlab = "", ylab = "Global Active Power (kilowatts)"))
+    with(myData, plot(Time, Global_active_power, type = "l", xlab = "", ylab = "Global Active Power"))
     
     ## Create Plot 4.2
     with(myData, plot(Time, Sub_metering_1, type = "l", xlab = "", ylab = "Energy Sub metering"))
