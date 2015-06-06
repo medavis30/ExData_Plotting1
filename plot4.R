@@ -19,7 +19,7 @@ plot4 <- function(){
     par(mfcol = c(2, 2))
     
     ## Set margins for optimal display
-    par(mar = c(3,4,1,2))
+    par(mar = c(4,4,2,2))
     
     ## Create Plot 4.1
     with(myData, plot(Time, Global_active_power, type = "l", xlab = "", ylab = "Global Active Power (kilowatts)"))
